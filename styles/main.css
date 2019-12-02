@@ -1,0 +1,26 @@
+body {
+  max-width: 612px;
+  font-family: Arial, serif;
+  margin: auto;
+  background-color: silver;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 47px;
+}
+
+h2 {
+  font-size: 37px;
+}
+
+h3 {
+  font-size: 29px;
+}
+
+h4 {
+  font-size: 23px;
+}
