@@ -1,11 +1,41 @@
 body {
+  background-color: white smoke;
   max-width: 612px;
   font-family: Arial, sans-serif;
   margin: auto;
 }
 
+header>img {
+    width: 10em;
+    height: auto;
+    position: fixed;
+    left: 5em;
+    
+}
+nav li {
+  display: inline-block;
+  font-size: 25px;
+  
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus {
+    background-color: blue;
+    color: white;
+}
+
+ul {
+  border: 1px solid;
+}
+
 p {
   font-size: 18px;
+  background-color: MistyRose;
+}
+dfn {
+ font-size: 18px;
+ background-color: MistyRose;
 }
 
 h1 {
@@ -24,10 +54,38 @@ h4 {
   font-size: 23px;
 }
 
-nav li {
-  display: inline-block;
-}
-
 a {
   text-decoration: none;
 }
+
+p {
+
+}
+img {
+width: 60px;
+height: 60px;
+}
+
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+border-color: black;
+}
+th {
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+background-color: #D0E3FA;
+}
+td {
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+}
+.tete {
+background-color: #D0E3FA;
+}
+
+
