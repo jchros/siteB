@@ -1,11 +1,34 @@
 body {
+	background-color: whitesmoke;
 	max-width: 612px;
 	font-family: Arial, sans-serif;
 	margin: auto;
 }
 
+header>img {
+	width: 10em;
+	height: auto;
+	position: fixed;
+	left: 5em;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	font-size: 19px;
+}
+
+
 p {
 	font-size: 18px;
+	background-color: #eee;
+}
+
+dfn {
+	display: inline-bloc;
+	font-size: 18px;
+	background-color: #eee;
+	text-align: justify;
 }
 
 h1 {
@@ -24,30 +47,22 @@ h4 {
 	font-size: 23px;
 }
 
-nav li {
-	display: inline-block;
-}
-
-a {
+li a {
 	text-decoration: none;
 	color: orchid;
 }
 
-a:visited {
+li a:visited {
 	color: mediumpurple;
 }
 
-a:hover {
+li a:hover {
 	background-color: lavender;
 }
 
 nav {
 	display: flex;
 	justify-content: center;
-}
-
-nav li {
-	padding: 0px 5px;
 }
 
 img {
@@ -85,4 +100,25 @@ table {
 
 caption {
 	padding-bottom: 10px;
+}
+
+/*...............style tableau..............*/
+table {
+	border: medium solid #6495ed;
+	border-collapse: collapse;
+	border-color: black;
+}
+th {
+	border: thin solid #6495ed;
+	padding: 5px;
+	background-color: #D0E3FA;
+}
+td {
+	border: thin solid #6495ed;
+	padding: 5px;
+}
+
+/*...............style pied..............*/
+footer {
+	background-color: silver;
 }
