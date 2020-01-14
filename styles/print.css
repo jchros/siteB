@@ -1,0 +1,8 @@
+/* For printing  */
+p, dfn {
+    background-color: white;
+}
+
+header, footer {
+    visibility: hidden;
+}
