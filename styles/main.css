@@ -67,6 +67,10 @@ nav {
 
 img {
 	max-width: 612px;
+	width: 10em;
+	height: 250px;
+	padding-left: 1em;
+	left: 10em;
 }
 
 span.wtf {
