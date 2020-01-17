@@ -1,0 +1,25 @@
+#logo {
+	display: none;
+}
+
+body {
+	width: 90%;
+}
+
+#table-wrapper {
+	position: relative;
+	overflow: auto;
+	max-height: 80vh;
+}
+
+header nav {
+	overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+	nav li {
+		margin: 0;
+		display: block;
+		padding: 2px;
+	}
+}

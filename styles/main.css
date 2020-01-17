@@ -5,7 +5,7 @@ body {
 	margin: auto;
 }
 
-header img {
+#logo {
 	width: 10em;
 	height: auto;
 	position: fixed;
